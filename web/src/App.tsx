@@ -1,13 +1,17 @@
-function Button() {
-  return <button>Enviar</button>;
+interface ButtonProps {
+  text?: string;
+}
+
+function Button(props: ButtonProps) {
+
+  return <button>{ props.text ?? 'Default' }</button>;
 }
 
 function App() {
   return (
     <div>
-      <Button />
-      <Button />
-      <Button />
+      <Button text="Enviar" />
+      <Button text="Ok" />
       <Button />
     </div>
   );
