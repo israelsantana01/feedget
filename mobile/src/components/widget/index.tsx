@@ -1,17 +1,34 @@
-import React, { useRef } from "react";
-import { TouchableOpacity, View, Text } from "react-native";
-import { ChatTeardropDots, TextT } from 'phosphor-react-native';
+import React, { useRef, useState } from "react";
+import { TouchableOpacity } from "react-native";
+import { ChatTeardropDots } from 'phosphor-react-native';
 import BottomSheet from "react-native-raw-bottom-sheet";
 
 import { styles } from './styles';
 import { theme } from "../../theme";
-import { getBottomSpace } from "react-native-iphone-x-helper";
+import { Form } from "../form";
+import { feedbackTypes } from "../../utils/feedbackTypes";
+import { Options } from "../options";
+import { Success } from "../success";
+
+export type FeedbackType = keyof typeof feedbackTypes; 
 
 export function Widget() {
+  const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
+  const [feedbackSent, setFeedbackSent] = useState(false);
+
   const bottomSheetRef = useRef<BottomSheet>(null);
 
   function handleOpen() {
     bottomSheetRef.current?.open();
+  }
+
+  function handleRestarFeedback() {
+    setFeedbackType(null);
+    setFeedbackSent(false);
+  }
+
+  function handleFeedbackSent() {
+    setFeedbackSent(true);
   }
 
   return (
@@ -37,7 +54,21 @@ export function Widget() {
           draggableIcon: styles.indicator
         }}
       >
-        <Text>something</Text>
+        {feedbackSent ? (
+          <Success onSendAnotherFeedback={handleRestarFeedback} />
+        ) : (
+          <>
+            {feedbackType ? (
+              <Form
+                feedbackType={feedbackType}
+                onFeedbackCancelled={handleRestarFeedback}
+                onFeedbackSent={handleFeedbackSent}
+              />
+            ): (
+              <Options onFeedbackTypeChanged={setFeedbackType} />
+            )}
+          </>
+        )}
       </BottomSheet>
     </>
   );
