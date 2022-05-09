@@ -1,28 +1,26 @@
 <h1 align="center">Feedget</h1>
 
-## Index
-### [🧠 Idea](#-idea)
-### [💻 Web](#-web)
-### [💻 Server](#-server)
-### [📱 Mobile](#-mobile)
-### [📋 How does it work?](#-how-does-it-work)
-### [🧪 Demo](#-demo)
+### Index
+- [💻 Web](#-web)
+- [💻 Server](#-server)
+- [📱 Mobile](#-mobile)
+- [📋 How does it work?](#-how-does-it-work)
+- [🧪 Demo](#-demo)
 
-<br><br><br>
+<br><br>
 
 # 🧠 Idea
 This project was designed at Next Level Week (NLW), event promoted by [Rocketseat](https://github.com/Rocketseat). The main idea behind that, is: a simple project who covers the most important things about the techs used. 
 ---
 
-<br>
+<br><br>
 
-# 📋 How doest it work?
+# 📋 How does it work?
 Some content
 
-<br>
+<br><br>
 
-# Project
-## Web 
+# Web 
 Some content
 
 ### Techs ⚙️
@@ -31,9 +29,9 @@ Some content
 #### [Tailwind CSS](https://tailwindcss.com/)
 #### [Headless ui](https://headlessui.dev/)
 
-<br>
+<br><br>
 
-## Server
+# Server
 Some content
 
 ### Techs ⚙️
@@ -41,15 +39,15 @@ Some content
 #### [Prisma](https://www.prisma.io/)
 #### [Jest](https://jestjs.io)
 
-<br>
+<br><br>
 
-## Mobile
+# Mobile
 Some content
 
 ### Techs ⚙️
 #### [React Native](https://reactnative.dev/)
 
-<br>
+<br><br>
 
 # 🧪 Demo
 ### Web app hosted on Vercel - https://feedget-web-gold.vercel.app/
