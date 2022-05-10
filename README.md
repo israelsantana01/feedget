@@ -2,7 +2,7 @@
 
 ### Index
 - [💻 Web](#-web)
-- [💻 Server](#-server)
+- [🔧 Server](#-server)
 - [📱 Mobile](#-mobile)
 - [📋 How does it work?](#-how-does-it-work)
 - [🧪 Demo](#-demo)
@@ -11,17 +11,20 @@
 
 # 🧠 Idea
 This project was designed at Next Level Week (NLW), event promoted by [Rocketseat](https://github.com/Rocketseat). The main idea behind that, is: a simple project who covers the most important things about the techs used. 
----
+
 
 <br><br>
 
 # 📋 How does it work?
-Some content
+How we have saw above, this app has a purpose of deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
+
 
 <br><br>
 
-# Web 
-Some content
+# 💻 Web 
+<img src="https://ik.imagekit.io/ntsapal2yx/ezgif.com-gif-maker_44ARi1LMS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1652191366608" />
+
+<br>
 
 ### Techs ⚙️
 #### [Vite](https://vitejs.dev/)
@@ -31,8 +34,11 @@ Some content
 
 <br><br>
 
-# Server
-Some content
+# 🔧 Server
+The server was build applying SOLID concepts, like: **Dependency Injection** and **Single Responsibility** principles. Also, i am using Prisma to save infos in a database and a mail client to send emails for the system owner when someone send a feedback.
+I used [Railway](https://railway.app/) to host the app and the database.
+
+<br>
 
 ### Techs ⚙️
 #### [NodeJS](https://nodejs.org/en/docs/)
@@ -41,8 +47,8 @@ Some content
 
 <br><br>
 
-# Mobile
-Some content
+# 📱 Mobile
+
 
 ### Techs ⚙️
 #### [React Native](https://reactnative.dev/)
