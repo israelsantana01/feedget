@@ -15,8 +15,8 @@ This project was designed at Next Level Week (NLW), event promoted by [Rocketsea
 
 <br><br>
 
-# 📋 How does it work?
-How we have saw above, this app has a purpose of deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
+# 📋 How does the project work?
+How we have saw above, this app has a purpose to deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback, and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
 
 
 <br><br>
@@ -35,8 +35,8 @@ How we have saw above, this app has a purpose of deal with users feedbacks about
 <br><br>
 
 # 🔧 Server
-The server was build applying SOLID concepts, like: **Dependency Injection** and **Single Responsibility** principles. Also, i am using Prisma to save infos in a database and a mail client to send emails for the system owner when someone send a feedback.
-I used [Railway](https://railway.app/) to host the app and the database.
+The server was build applying SOLID concepts, like: **Dependency Inversion** and **Single Responsibility** principles. Also, i am using Prisma to save infos in a database and a mail client to send emails for the system owner when someone send a feedback.
+I used [Railway](https://railway.app/) to host the server and our **Postgres** database.
 
 <br>
 
@@ -48,7 +48,9 @@ I used [Railway](https://railway.app/) to host the app and the database.
 <br><br>
 
 # 📱 Mobile
+<img src="https://ik.imagekit.io/ntsapal2yx/ezgif.com-gif-maker-2_JjMvrU5wi.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1652269956247" />
 
+<br>
 
 ### Techs ⚙️
 #### [React Native](https://reactnative.dev/)
