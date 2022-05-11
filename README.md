@@ -16,7 +16,7 @@ This project was designed at Next Level Week (NLW), event promoted by [Rocketsea
 <br><br>
 
 # 📋 How does the project work?
-This app has a purpose to deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback, and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
+This app has a purpose to deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of errors occurs when the user wants to send a feedback, and describe how the error is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
 
 
 <br><br>
@@ -35,7 +35,7 @@ This app has a purpose to deal with users feedbacks about anything, or specifica
 <br><br>
 
 # 🔧 Server
-The server was build applying SOLID concepts, like: **Dependency Inversion** and **Single Responsibility** principles. Also, i am using Prisma to save infos in a database and a mail client to send emails for the system owner when someone send a feedback.
+The server was build applying SOLID concepts, like: **Dependency Inversion** and **Single Responsibility** principles. Also, i am using Prisma to save infos in a database and a mail client to send emails for the system owner when someone sends a feedback.
 I used [Railway](https://railway.app/) to host the server and our **Postgres** database.
 
 <br>
