@@ -16,7 +16,7 @@ This project was designed at Next Level Week (NLW), event promoted by [Rocketsea
 <br><br>
 
 # 📋 How does the project work?
-How we have saw above, this app has a purpose to deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback, and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
+This app has a purpose to deal with users feedbacks about anything, or specifically about your system. The user cans select his feedback type, take a screenshot of his screen, because most of erros occurs when the user wants to send a feedback, and describe what is happening. After that, a email is sent to the system owner. That's it! A simple idea, but with a lot of things to learn.
 
 
 <br><br>
